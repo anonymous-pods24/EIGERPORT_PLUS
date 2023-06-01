@@ -1,0 +1,6 @@
+algorithm, num_servers,throughput,latency
+EIGER,2,6424,2.726
+EIGER,4,7861,4.277
+EIGER,8,9350,6.542
+EIGER,16,7170,17.173
+EIGER,32,13607,15.598
