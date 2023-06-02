@@ -1,8 +1,0 @@
-algorithm,zipf,normalized_throughput,normalized_latency
-EIGER,0,1,1
-EIGER,0.7,1,1
-EIGER,0.8,1,1
-EIGER,0.9,1,1
-EIGER,0.99,1,1
-EIGER,1.1,1,1
-EIGER,1.2,1,1
