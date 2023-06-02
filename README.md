@@ -9,7 +9,7 @@ The experiments were run using Emulab d170 nodes on Ubuntu 16.04 STD. Unless sta
 Everything can be built from setup_cluster.py:
  1. Insert the list of nodes of your cluster (extra node to run from in position 0 of the list, we 
  will call this node0). 
- 2. Run the script as: ```setup_cluster.py --setup``` to configure passwordless ssh in between every node.
+ 2. Run the script as: ```python3 setup_cluster.py --setup``` to configure passwordless ssh in between every node.
   3. Run the script as:  ```python3 setup_cluster.py``` if you want to run the original Eiger-PORT
   4. Run the script as:  ```python3 setup_cluster.py --plus``` if you want to run Eiger-PORT+
   5. Run the script as:  ```python3 setup_cluster.py --server_exp``` if you want to run the number of servers experiments and hence you ware working with 64+1 total machines.
