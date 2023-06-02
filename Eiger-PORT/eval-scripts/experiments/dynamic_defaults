@@ -7,6 +7,6 @@ keys_per_write=5     # num of keys per batched writes or per write txn
 write_frac=0.1       # read-to-write ratio, 0.1 = 10% are writes
 write_trans_frac=1   # 1 = all writes are done as write txns
 run_time=60          # in seconds, for each trial
-trial=1              # num of trials to run for each data point
+trial=5              # num of trials to run for each data point
 use_zipfian=0        # either 0 or 1. 0 = uniform workloads. 1 = zipfianed
 zipfian_constant=0   # cannot be 1.

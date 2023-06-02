@@ -114,7 +114,7 @@ trim=15
 
 echo -e "STARTING $0 $@" >> ${exp_dir}/progress
 
-num_trials=1
+num_trials=5
 for trial in $(seq $num_trials); do
 
 #for thread in 2 4 8 16 32 64 128 256 512; do
