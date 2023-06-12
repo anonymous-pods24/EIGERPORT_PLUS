@@ -59,5 +59,7 @@ In latency_throughput.bash
 ## 4. Process results
 The results of your experiment will be in ```cd /local/Eiger-PORT/eval-scripts/experiments/dynamic```, the latest experiment is in a folder called latest. Copy the data processing scripts into the experiment folder, then edit process_latency.bash according to your experiment options, finally run calc_latency_throughput.bash to calculate latency and throughput. 
 
+The results used in the pubblications can be found in  ```results/paperResults``` as csv files.
+
 ## 5. More information
 For more information please visit the original  Eiger-PORT codebase which goes more into details.
